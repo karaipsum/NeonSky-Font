@@ -1,9 +1,6 @@
 {
 .appVersion = "3260";
 .formatVersion = 3;
-DisplayStrings = (
-n
-);
 axes = (
 {
 name = Weight;
@@ -987,7 +984,7 @@ color = 1;
 glyphname = B;
 kernLeft = B;
 kernRight = B;
-lastChange = "2024-08-24 00:21:33 +0000";
+lastChange = "2024-08-24 03:34:01 +0000";
 layers = (
 {
 backgroundImage = {
@@ -6281,7 +6278,7 @@ color = 1;
 glyphname = a;
 kernLeft = a;
 kernRight = a;
-lastChange = "2024-08-24 01:15:59 +0000";
+lastChange = "2024-08-24 03:39:26 +0000";
 layers = (
 {
 anchors = (
@@ -6359,14 +6356,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(118,-200,l),
+(108,-200,l),
 (303,-1,l),
 (303,490,l),
 (206,490,l),
 (62,340,l),
 (143,340,l),
 (143,28,l),
-(12,-200,l)
+(2,-200,l)
 );
 },
 {
@@ -6753,7 +6750,7 @@ color = 3;
 glyphname = ae;
 kernLeft = a;
 kernRight = e;
-lastChange = "2024-08-24 01:54:55 +0000";
+lastChange = "2024-08-24 03:39:41 +0000";
 layers = (
 {
 layerId = m01;
@@ -20521,5 +20518,5 @@ HV = "100";
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 3;
 }
