@@ -12,6 +12,10 @@ The font has **two** variable axes:
 
 The static font files are generated via interpolation.
 
+## Preview
+
+(Under Construction)
+
 ## Opentype Features
 
 ### Fraction `frac`, `numr`, `dnom`
@@ -33,6 +37,12 @@ See [spec note](https://learn.microsoft.com/en-us/typography/opentype/spec/featu
 ### Stylistic Alternates `salt`
 
 See [spec note](https://learn.microsoft.com/en-us/typography/opentype/spec/features_pt#salt)
+
+## Reference
+
+See [Augmented Postulated Proto-Alphabet](https://github.com/karaipsum/Postulated-Proto-Alphabet)
+
+Special thanks to [Celes](https://club.huijiwiki.com/wiki/%E7%89%B9%E6%AE%8A:%E9%A9%BE%E9%A9%B6%E5%AE%A4#/user/45979/main)（[@时与悠可](https://weibo.com/u/3506214112)）for datamining and reference pictures.
 
 ## License
 
