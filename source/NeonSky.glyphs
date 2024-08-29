@@ -304,6 +304,19 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = B;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
 }
 );
 id = m005;
@@ -351,6 +364,19 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = B;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 200;
+}
+);
 }
 );
 id = m006;
@@ -398,6 +424,19 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = B;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
 }
 );
 id = m01;
@@ -444,6 +483,19 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = B;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Width;
+Location = 200;
+}
+);
 }
 );
 id = m004;
@@ -491,6 +543,19 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = B;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
 }
 );
 id = m002;
@@ -40319,6 +40384,10 @@ customParameters = (
 {
 name = fileName;
 value = "NeonSky-VF";
+},
+{
+name = "Variable Font Origin";
+value = m01;
 }
 );
 name = Regular;
@@ -40331,6 +40400,14 @@ language = dflt;
 value = "NeonSky VF";
 }
 );
+},
+{
+key = postscriptFontName;
+value = "NeonSky-VF";
+},
+{
+key = variationsPostScriptNamePrefix;
+value = "NeonSky-VF";
 }
 );
 type = variable;
@@ -42246,5 +42323,5 @@ tH = "65";
 };
 };
 versionMajor = 1;
-versionMinor = 8;
+versionMinor = 9;
 }
