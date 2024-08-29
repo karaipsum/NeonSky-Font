@@ -14,6 +14,8 @@ The static font files are generated via interpolation.
 
 ## Preview
 
+![Interactive Demo Animated Image](Preview/InteractiveDemo.gif)
+
 Try the interactive variable font demo page [here](https://karaipsum.github.io/neonsky-demo.html)!
 > It's my first time doing web development. I feel very shameful that I borrowed a lot of design and script snipet from the [demo page](https://demos.tyfromtheinternet.com/leaguemonovariable/) of [League Mono](https://github.com/theleagueof/league-mono). I would not be able to make this demo page without this reference. My sincere appreciation here.
 
