@@ -8,7 +8,7 @@
 		<style id="font-declaration">
 			@font-face {
 				font-family: "NeonSky VF Regular";
-				src: url("NeonSky-VF.ttf");
+				src: url("NeonSky-VF.woff2");
 			}
 		</style>
 		<style>
@@ -452,7 +452,7 @@
 			<!-- OTVar sliders -->
 			<div class="labeldiv"><label class="sliderlabel" id="label_fontsize" name="Font Size">Font Size</label><input type="range" min="10" max="1000" value="40" class="slider" id="fontsize" oninput="updateSlider();"></div>
 			<div class="labeldiv"><label class="sliderlabel" id="label_lineheight" name="Line Height">Line Height</label><input type="range" min="30" max="300" value="120" class="slider" id="lineheight" oninput="updateSlider();"></div>
-			<div class='labeldiv'><label class='sliderlabel' id='label_wght' name='Weight'>Weight</label><input type='range' min='100' max='900' value='100' class='slider' id='wght' oninput='updateSlider();'></div>
+			<div class='labeldiv'><label class='sliderlabel' id='label_wght' name='Weight'>Weight</label><input type='range' min='100' max='900' value='500' class='slider' id='wght' oninput='updateSlider();'></div>
 			<div class='labeldiv'><label class='sliderlabel' id='label_wdth' name='Width'>Width</label><input type='range' min='100' max='200' value='100' class='slider' id='wdth' oninput='updateSlider();'></div>
 
 			<div id="featureControls">
@@ -481,12 +481,10 @@
 				<option value='wght: 800.0,wdth: 150.0'>Bold Expanded</option>
 				<option value='wght: 800.0,wdth: 200.0'>Bold Ultra Expanded</option>
 				<option value='wght: 900.0,wdth: 100.0'>Black</option>
-				<option value='wght: 900.0,wdth: 150.0'>Black Expanded</option>
-				<option value='wght: 900.0,wdth: 200.0'>Black Ultra Expanded</option>
 {tabbing}</select>
 
 			<!-- file type -->
-				<a onclick="toggleType();" id="type" class="emojiButton">TT</a>
+				<a onclick="toggleType();" id="type" class="emojiButton">W2</a>
 
 			<!-- Samsa -->
 				<!-- placeholder for external links, hold down OPTION and SHIFT while running the script -->
