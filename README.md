@@ -1,14 +1,24 @@
-# NeonSky Typeface
+# NeonSky Variable Font Family
  [![License: Open Font-1.1](https://img.shields.io/badge/License-OFL_1.1-lightgreen.svg)](https://opensource.org/licenses/OFL-1.1)
 
-A [variable font](https://web.dev/variable-fonts/) (and a static font family) inspired by the city _Solution Nine_ in _FINAL FANTASY XIV_.
+[简介](README_CN.md)
 
-The design of NeonSky features a futuristic and Sci-Fi look.
+ ![repo](preview/repo.png)
+
+A [Variable font](https://web.dev/variable-fonts/) family inspired by the city _Solution Nine_ in _FINAL FANTASY XIV_.
+
+The design of NeonSky features a geometric, futuristic and Sci-Fi look.
 
 The font has **two** variable axes:
 
 - **Weight** (100-900): Thin – Black
 - **Width** (100-200): Regular – Ultra Expanded
+
+and **two** styles:
+
+- Solid
+- Stencil
+
 
 The static font files are generated via interpolation.
 
@@ -17,9 +27,12 @@ The static font files are generated via interpolation.
 ![Interactive Demo Animated Image](https://raw.githubusercontent.com/karaipsum/NeonSky-Font/main/preview/InteractiveDemo.gif)
 
 Try the interactive variable font demo page [here](https://karaipsum.github.io/neonsky-demo.html)!
+
 > It's my first time doing web development. I feel very shameful that I borrowed a lot of design and script snipet from the [demo page](https://demos.tyfromtheinternet.com/leaguemonovariable/) of [League Mono](https://github.com/theleagueof/league-mono). I would not be able to make this demo page without this reference. My sincere appreciation here.
 
 ## Opentype Features
+
+The features listed below can be tested on the interactive demo page.
 
 ### Fraction `frac`, `numr`, `dnom`
 
@@ -51,4 +64,4 @@ Special thanks to [Celes](https://club.huijiwiki.com/wiki/%E7%89%B9%E6%AE%8A:%E9
 
 All company, product, and system names mentioned herein are trademarks or registered trademarks of their respective companies.
 
-The font NeonSky is released under [SIL Open Font License v1.1](https://openfontlicense.org/), with Reserved Font Name "NeonSky".
+The font NeonSky is released under [SIL Open Font License v1.1](https://openfontlicense.org/), with Reserved Font Name "NeonSky" and "NeonSky Stencil".
