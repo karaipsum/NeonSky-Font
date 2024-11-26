@@ -14,10 +14,11 @@ The font has **two** variable axes:
 - **Weight** (100-900): Thin – Black
 - **Width** (100-200): Regular – Ultra Expanded
 
-and **two** styles:
+and **three** styles:
 
 - Solid
 - Stencil
+- Pixel (new!!)
 
 
 The static font files are generated via interpolation.
