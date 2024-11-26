@@ -159,7 +159,7 @@
 				-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
 				-ms-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
 				-o-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
-				font-variation-settings: "wght" 100.0;
+				font-variation-settings: "wght" 400.0;
 				overflow-x: hidden;
 				overflow-y: scroll;
 				word-wrap: break-word;
@@ -477,15 +477,15 @@
 			<!-- OTVar sliders -->
 			<div class="labeldiv"><label class="sliderlabel" id="label_fontsize" name="Font Size">Font Size</label><input type="range" min="10" max="1000" value="40" class="slider" id="fontsize" oninput="updateSlider();"></div>
 			<div class="labeldiv"><label class="sliderlabel" id="label_lineheight" name="Line Height">Line Height</label><input type="range" min="30" max="300" value="120" class="slider" id="lineheight" oninput="updateSlider();"></div>
-			<div class='labeldiv'><label class='sliderlabel' id='label_wght' name='Weight'>Weight</label><input type='range' min='50' max='100' value='50' class='slider' id='wght' oninput='updateSlider();'></div>
+			<div class='labeldiv'><label class='sliderlabel' id='label_wght' name='Weight'>Weight</label><input type='range' min='200' max='400' value='200' class='slider' id='wght' oninput='updateSlider();'></div>
 
 			<div id="featureControls">
 			<!-- style menu -->
 			<select id='styleMenu' name='styleMenu' onchange='setStyle(this.value);'>
-				<option value='wght: 100.0'>Origin</option>
-				<option value='wght: 100.0'>Regular</option>
-				<option value='wght: 50.0'>Dimmed</option>
-				<option value='wght: 100.0'>Rounded Regular</option>
+				<option value='wght: 400.0'>Origin</option>
+				<option value='wght: 400.0'>Regular</option>
+				<option value='wght: 200.0'>Dimmed</option>
+				<option value='wght: 400.0'>Rounded Regular</option>
 {tabbing}</select>
 
 			<!-- file type -->
