@@ -18,7 +18,7 @@ NeonSky 字体的设计风格为几何、未来与科幻感。
 
 - Solid
 - Stencil
-- Pixel（新）
+- [Pixel](https://github.com/karaipsum/NeonSky-Font/releases/tag/v1.000-p)（新）
 
 静态字体文件经由插值生成。
 
