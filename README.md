@@ -18,7 +18,7 @@ and **three** styles:
 
 - Solid
 - Stencil
-- [Pixel](https://github.com/karaipsum/NeonSky-Font/releases/tag/v1.000-p) (new!!)
+- [Pixel](https://github.com/karaipsum/NeonSky-Font/releases/tag/v1.010-p) (new!!)
 
 
 The static font files are generated via interpolation.
