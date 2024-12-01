@@ -99926,7 +99926,29 @@ value = "NeonSkyPixel-VF";
 name = "NeonSky Pixel VF";
 properties = (
 {
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "NeonSky Pixel VF";
+}
+);
+},
+{
 key = postscriptFontName;
+value = "NeonSkyPixel-VF";
+},
+{
+key = postscriptFullNames;
+values = (
+{
+language = dflt;
+value = "NeonSky Pixel VF";
+}
+);
+},
+{
+key = variationsPostScriptNamePrefix;
 value = "NeonSkyPixel-VF";
 }
 );
@@ -99952,7 +99974,29 @@ value = "NeonSkyPixelRnd-VF";
 name = "NeonSky Pixel Rounded VF";
 properties = (
 {
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "NeonSky Pixel Rounded VF";
+}
+);
+},
+{
 key = postscriptFontName;
+value = "NeonSkyPixelRnd-VF";
+},
+{
+key = postscriptFullNames;
+values = (
+{
+language = dflt;
+value = "NeonSky Pixel Rounded VF";
+}
+);
+},
+{
+key = variationsPostScriptNamePrefix;
 value = "NeonSkyPixelRnd-VF";
 }
 );
@@ -100017,6 +100061,7 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "5D985DD6-B1B8-46F3-B0A0-1F3CF073B806" = 0.5;
 m002 = 0.5;
