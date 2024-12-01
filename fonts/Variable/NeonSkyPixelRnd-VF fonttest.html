@@ -8,7 +8,7 @@
 		<style id="font-declaration">
 			@font-face {
 				font-family: "NeonSky Pixel NeonSky Pixel Rounded VF";
-				src: url("NeonSky-Pixel-Rnd-VF.woff2");
+				src: url("NeonSkyPixelRnd-VF.woff2");
 			}
 		</style>
 		<style>
@@ -257,7 +257,7 @@
 				return suffix;
 			}
 			function reloadFontFace() {
-				let fontFace = new FontFace("NeonSky Pixel NeonSky Pixel Rounded VF", `url('NeonSky-Pixel-Rnd-VF.${currentSuffix()}?v=${version()}')`);
+				let fontFace = new FontFace("NeonSky Pixel NeonSky Pixel Rounded VF", `url('NeonSkyPixelRnd-VF.${currentSuffix()}?v=${version()}')`);
 				fontFace.load().then(function(loadedFontFace) {
 					document.fonts.add(loadedFontFace);
 					console.log('Font reloaded');
@@ -442,7 +442,7 @@
 				newFontStyleSheet.textContent = `
 				@font-face {
 					font-family: "NeonSky Pixel NeonSky Pixel Rounded VF";
-					src: url("NeonSky-Pixel-Rnd-VF.${suffix}");
+					src: url("NeonSkyPixelRnd-VF.${suffix}");
 				}`;
 				fontStyleSheet.replaceWith(newFontStyleSheet);
 			}
@@ -485,7 +485,6 @@
 				<option value='wght: 400.0'>Origin</option>
 				<option value='wght: 400.0'>Regular</option>
 				<option value='wght: 200.0'>Dimmed</option>
-				<option value='wght: 400.0'>Rounded Regular</option>
 {tabbing}</select>
 
 			<!-- file type -->
@@ -513,6 +512,8 @@
 				<input type="checkbox" name="tnum" id="tnum" value="tnum" class="otFeature" onchange="updateFeatures()"><label for="tnum" class="otFeatureLabel">tnum</label>
 				<input type="checkbox" name="onum" id="onum" value="onum" class="otFeature" onchange="updateFeatures()"><label for="onum" class="otFeatureLabel">onum</label>
 				<input type="checkbox" name="case" id="case" value="case" class="otFeature" onchange="updateFeatures()"><label for="case" class="otFeatureLabel">case</label>
+				<input type="checkbox" name="salt" id="salt" value="salt" class="otFeature" onchange="updateFeatures()"><label for="salt" class="otFeatureLabel">salt</label>
+				<input type="checkbox" name="ss01" id="ss01" value="ss01" class="otFeature" onchange="updateFeatures()"><label for="ss01" class="otFeatureLabel">ss01</label>
 
 				<select id='lang' name='languages' onchange='setLanguage(this.value);'>
 					<option value=''>No Language</option>
